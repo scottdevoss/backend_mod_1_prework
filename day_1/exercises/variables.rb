@@ -11,19 +11,24 @@ p name
 # Write code that saves the string 'Dobby' to a variable and
 # prints what that variable holds to the terminal:
 house_elf = "Dobby"
-# YOUR CODE HERE
+p house_elf
 
 # Write code that saves the string 'Harry Potter must not return to Hogwarts!'
 # and prints what that variable holds to the terminal:
-# YOUR CODE HERE
+elf_says = "Harry Potter must not return to Hogwarts!"
+p elf_says
 
 # Write code that adds 2 to the `students` variable and
 # prints the result:
-students = 22
-# YOUR CODE HERE
-p students
+students = 22 
+
+new_students = students + 2
+
+p new_students
 
 # Write code that subracts 2 from the `students` variable and
 # prints the result:
 # YOUR CODE HERE
-p students
+less_students = students - 2
+
+p less_students
